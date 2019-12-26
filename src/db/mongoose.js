@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/travels-dev',{
+mongoose.connect('mongodb+srv://degall:Jensoles88!@degallcluster-koink.mongodb.net/momento',{
     useNewUrlParser:true,
     useCreateIndex: true,
     useFindAndModify: false,
