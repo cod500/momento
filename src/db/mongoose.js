@@ -6,7 +6,7 @@ mongoose.connect('mongodb+srv://degall:Jensoles88!@degallcluster-koink.mongodb.n
     useFindAndModify: false,
     useUnifiedTopology: true 
 }).then(() =>{
-    console.log('mongoDB connected...')
+    console.log('mongoDB connected..')
 }).catch((e) =>{
     console.log(e)
 })
